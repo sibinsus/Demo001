@@ -2,7 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationInsightsResourceId>/subscriptions/33fedccd-a71e-40b1-82d0-f1a1c8cc3479/resourcegroups/SibinDemo01/providers/microsoft.insights/components/Demo001Sibin01</ApplicationInsightsResourceId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.12.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
 
 
 
